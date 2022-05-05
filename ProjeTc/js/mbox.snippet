@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>mbox</Title>
+			<Shortcut>mbox</Shortcut>
+			<Description>MessageBox.Show için kýsayol</Description>
+			<Author>Devrim ALTINKURT</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>string</ID>
+					<ToolTip>Mesaj Metni</ToolTip>
+					<Default>Mesaj metni buraya</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp"><![CDATA[MessageBox.Show("$string$", MessageBox.MesajTipleri.Success);$end$]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
